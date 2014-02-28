@@ -19,6 +19,7 @@ In this repository I've boiled down the various ways that you can use the latest
 - [Migrating from AFNetworking 1.x to AFNetworking 2](http://gavrix.wordpress.com/2013/10/16/migrating-from-afnetworking-1-x-to-afnetworking-2/)
 - [Working with NSURLSession and AFNetworking 2.0](http://code.tutsplus.com/tutorials/working-with-nsurlsession-afnetworking-20--mobile-22651)
 - [Working with AFNetworking 2](http://programmingthomas.com/blog/2013/9/17/working-with-afnetworking-2)
+- [AFNetworking 2.0 Screencast](http://nsscreencast.com/episodes/91-afnetworking-2-0)
 
 ### Known Issues
 - [AFHTTPSessionManager and NSOperation with dependencies](https://github.com/AFNetworking/AFNetworking/issues/1504)
