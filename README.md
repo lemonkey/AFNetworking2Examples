@@ -1,7 +1,9 @@
 AFNetworking2Examples
 =====================
 
-Examples of using the latest AFNetworking library.  Covers both AFHTTPRequestOperationManager (NSURLConnection) and AFHTTPSessionManager (NSURLSession).
+I recently went through a fairly large refactoring of networking code to upgrade it from using AFNetworking 1.x to AFNetworking 2.0.  Along the way I reviewed various resources and uncovered various gotchas and things to be mindful of.
+
+In this repository I've boiled down the various ways that you can use the latest AFNetworking 2.x library in your code.
 
 ## Resources
 
