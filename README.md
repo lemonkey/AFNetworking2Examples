@@ -25,3 +25,4 @@ In this repository I've created a simple iOS app that demonstrates the main ways
 
 ### Known Issues
 - [AFHTTPSessionManager and NSOperation with dependencies](https://github.com/AFNetworking/AFNetworking/issues/1504)
+- [NSURLSession and NSURLSessionDataTasks](https://github.com/AFNetworking/AFNetworking/issues/1838)
