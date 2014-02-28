@@ -15,7 +15,7 @@ In this repository I've boiled down the various ways that you can use the latest
 - [AFNetworking on StackOverflow](http://stackoverflow.com/tags/afnetworking/info)
 
 ### Others
-- [What's new in Foundation Networking](http://asciiwwdc.com/2013/sessions/705?q=nsurlsession)
+- [What's new in Foundation Networking - WWDC 2013](http://asciiwwdc.com/2013/sessions/705?q=nsurlsession)
 - [AFNetworking 2.0 Tutorial](http://www.raywenderlich.com/59255/afnetworking-2-0-tutorial)
 - [NSURLSession Tutorial](http://www.raywenderlich.com/51127/nsurlsession-tutorial)
 - [Migrating from AFNetworking 1.x to AFNetworking 2](http://gavrix.wordpress.com/2013/10/16/migrating-from-afnetworking-1-x-to-afnetworking-2/)
