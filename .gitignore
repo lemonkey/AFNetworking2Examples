@@ -19,3 +19,15 @@ DerivedData
 
 #CocoaPods
 Pods
+
+!default.xcworkspace
+xcuserdata
+
+# betabuilder artifacts
+build.output
+git.output
+pkg
+build
+Podfile.lock
+
+
