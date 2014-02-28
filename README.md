@@ -3,7 +3,7 @@ AFNetworking2Examples
 
 I recently went through a fairly large refactoring of iOS networking code to upgrade it from using AFNetworking 1.x to AFNetworking 2.1 as well as to take advantage of the latest networking updates for iOS 7.  Along the way I reviewed various resources and uncovered various gotchas and things to be mindful of.
 
-In this repository I've boiled down the various ways that you can use the latest AFNetworking 2.x library in your code.
+In this repository I've created a simple iOS app that demonstrates the main ways you can use the latest AFNetworking library and the newest Foundation networking libraries for iOS 7.
 
 ## Resources
 
