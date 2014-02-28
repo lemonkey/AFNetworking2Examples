@@ -11,6 +11,7 @@ In this repository I've boiled down the various ways that you can use the latest
 - [AFNetworking 2.0 Migration Guide](https://github.com/AFNetworking/AFNetworking/wiki/AFNetworking-2.0-Migration-Guide)
 - [AFNetworking 2.0 - NSHipster](http://nshipster.com/afnetworking-2/)
 - [From NSURLConnection to NSURLSession - iOS 7](http://www.objc.io/issue-5/from-nsurlconnection-to-nsurlsession.html)
+- [AFNetworking on StackOverflow](http://stackoverflow.com/tags/afnetworking/info)
 
 ### Others
 - [What's new in Foundation Networking](http://asciiwwdc.com/2013/sessions/705?q=nsurlsession)
