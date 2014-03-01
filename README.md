@@ -10,10 +10,10 @@ Note that this example project uses CocoaPods to import the latest AFNetworking 
 ## Examples
 - AFHTTPRequestOperation
 - AFHTTPRequestOperationManager
-- AFHTTPRequestOperationManagerClientCategory
+- AFHTTPRequestOperationManager using a client category class
 - AFHTTPURLSessionManager
-- AFHTTPURLSessionManagerClientWithDelegate
-- AFHTTPURLSessionManagerClientCategory
+- AFHTTPURLSessionManager using a client that uses delegate callbacks
+- AFHTTPURLSessionManager using a client category class
 
 ## Resources
 
