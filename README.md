@@ -5,6 +5,8 @@ I recently went through a fairly large refactoring of iOS networking code to upg
 
 In this repository I've created a simple iOS app that demonstrates various ways you can use the latest AFNetworking library and the newest Foundation networking libraries for iOS 7.
 
+AFHTTPRequestOperation still uses NSURLConnection while AFHTTPURLSession uses NSURLSession, first available in iOS 7.
+
 Note that this example project uses CocoaPods to import the latest AFNetworking library.
 
 ## Examples
