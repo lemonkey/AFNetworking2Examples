@@ -7,6 +7,13 @@ In this repository I've created a simple iOS app that demonstrates various ways 
 
 Note that this example project uses CocoaPods to import the latest AFNetworking library.
 
+## Examples
+- AFHTTPRequestOperation
+- AFHTTPRequestOperationManager
+- AFHTTPRequestOperationManagerClientCategory
+- AFHTTPURLSessionManager
+- AFHTTPURLSessionManagerClientWithDelegate
+- AFHTTPURLSessionManagerClientCategory
 
 ## Resources
 
