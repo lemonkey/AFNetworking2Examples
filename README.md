@@ -3,7 +3,9 @@ AFNetworking2Examples
 
 I recently went through a fairly large refactoring of iOS networking code to upgrade it from using AFNetworking 1.x to AFNetworking 2.1 as well as to take advantage of the latest networking updates for iOS 7.  Along the way I reviewed various resources and uncovered various gotchas and things to be mindful of.
 
-In this repository I've created a simple iOS app that demonstrates various ways you can use the latest AFNetworking library and the newest Foundation networking libraries for iOS 7.
+In this repository I've created a simple iOS app that demonstrates various ways you can use the latest AFNetworking library and the newest Foundation networking libraries for iOS 7.  It can be a useful way to review various patterns that use AFHTTPRequestOperation and AFHTTPURLSessionManager.
+
+While I show how you can write your own AFHTTPResponseSerializer sub-class, I didn't get into how you override the request creation process to take advantage of the results of custom parsing logic.
 
 AFHTTPRequestOperation still uses NSURLConnection while AFHTTPURLSession uses NSURLSession, first available in iOS 7.
 
