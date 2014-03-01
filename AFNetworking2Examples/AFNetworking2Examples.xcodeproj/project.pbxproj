@@ -15,8 +15,14 @@
 		CE52959818C11A8900AB6106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52959718C11A8900AB6106 /* main.m */; };
 		CE52959C18C11A8900AB6106 /* OTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52959B18C11A8900AB6106 /* OTAAppDelegate.m */; };
 		CE52959F18C11A8900AB6106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE52959D18C11A8900AB6106 /* Main.storyboard */; };
-		CE5295A218C11A8900AB6106 /* OTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5295A118C11A8900AB6106 /* OTAViewController.m */; };
 		CE5295A418C11A8900AB6106 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5295A318C11A8900AB6106 /* Images.xcassets */; };
+		CE5295CF18C1244E00AB6106 /* OTATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5295CE18C1244E00AB6106 /* OTATableViewController.m */; };
+		CE5295D918C15E3A00AB6106 /* OTARESTSessionClient+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5295D418C15E3A00AB6106 /* OTARESTSessionClient+Date.m */; };
+		CE5295DA18C15E3A00AB6106 /* OTARESTSessionClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5295D618C15E3A00AB6106 /* OTARESTSessionClient.m */; };
+		CE5295DB18C15E3A00AB6106 /* OTARESTSessionClientWithDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5295D818C15E3A00AB6106 /* OTARESTSessionClientWithDelegate.m */; };
+		CE5295E518C15F4900AB6106 /* OTARESTRequestOperationClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5295E418C15F4900AB6106 /* OTARESTRequestOperationClient.m */; };
+		CE5295EB18C15F7500AB6106 /* OTARESTRequestOperationClient+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5295EA18C15F7500AB6106 /* OTARESTRequestOperationClient+Date.m */; };
+		CE5295F518C1682200AB6106 /* OTAJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5295F418C1682200AB6106 /* OTAJSONResponseSerializer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +39,22 @@
 		CE52959A18C11A8900AB6106 /* OTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAAppDelegate.h; sourceTree = "<group>"; };
 		CE52959B18C11A8900AB6106 /* OTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTAAppDelegate.m; sourceTree = "<group>"; };
 		CE52959E18C11A8900AB6106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE5295A018C11A8900AB6106 /* OTAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAViewController.h; sourceTree = "<group>"; };
-		CE5295A118C11A8900AB6106 /* OTAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTAViewController.m; sourceTree = "<group>"; };
 		CE5295A318C11A8900AB6106 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE5295AA18C11A8900AB6106 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE5295CD18C1244E00AB6106 /* OTATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTATableViewController.h; sourceTree = "<group>"; };
+		CE5295CE18C1244E00AB6106 /* OTATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTATableViewController.m; sourceTree = "<group>"; };
+		CE5295D318C15E3A00AB6106 /* OTARESTSessionClient+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OTARESTSessionClient+Date.h"; sourceTree = "<group>"; };
+		CE5295D418C15E3A00AB6106 /* OTARESTSessionClient+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OTARESTSessionClient+Date.m"; sourceTree = "<group>"; };
+		CE5295D518C15E3A00AB6106 /* OTARESTSessionClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTARESTSessionClient.h; sourceTree = "<group>"; };
+		CE5295D618C15E3A00AB6106 /* OTARESTSessionClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTARESTSessionClient.m; sourceTree = "<group>"; };
+		CE5295D718C15E3A00AB6106 /* OTARESTSessionClientWithDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTARESTSessionClientWithDelegate.h; sourceTree = "<group>"; };
+		CE5295D818C15E3A00AB6106 /* OTARESTSessionClientWithDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTARESTSessionClientWithDelegate.m; sourceTree = "<group>"; };
+		CE5295E318C15F4900AB6106 /* OTARESTRequestOperationClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTARESTRequestOperationClient.h; sourceTree = "<group>"; };
+		CE5295E418C15F4900AB6106 /* OTARESTRequestOperationClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTARESTRequestOperationClient.m; sourceTree = "<group>"; };
+		CE5295E918C15F7500AB6106 /* OTARESTRequestOperationClient+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OTARESTRequestOperationClient+Date.h"; sourceTree = "<group>"; };
+		CE5295EA18C15F7500AB6106 /* OTARESTRequestOperationClient+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OTARESTRequestOperationClient+Date.m"; sourceTree = "<group>"; };
+		CE5295F318C1682200AB6106 /* OTAJSONResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTAJSONResponseSerializer.h; sourceTree = "<group>"; };
+		CE5295F418C1682200AB6106 /* OTAJSONResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTAJSONResponseSerializer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +105,13 @@
 		CE52959118C11A8900AB6106 /* AFNetworking2Examples */ = {
 			isa = PBXGroup;
 			children = (
+				CE5295D018C15E3A00AB6106 /* Clients */,
+				CE5295F218C1682200AB6106 /* Serializers */,
 				CE52959A18C11A8900AB6106 /* OTAAppDelegate.h */,
 				CE52959B18C11A8900AB6106 /* OTAAppDelegate.m */,
 				CE52959D18C11A8900AB6106 /* Main.storyboard */,
-				CE5295A018C11A8900AB6106 /* OTAViewController.h */,
-				CE5295A118C11A8900AB6106 /* OTAViewController.m */,
+				CE5295CD18C1244E00AB6106 /* OTATableViewController.h */,
+				CE5295CE18C1244E00AB6106 /* OTATableViewController.m */,
 				CE5295A318C11A8900AB6106 /* Images.xcassets */,
 				CE52959218C11A8900AB6106 /* Supporting Files */,
 			);
@@ -107,6 +127,48 @@
 				CE52959918C11A8900AB6106 /* AFNetworking2Examples-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE5295D018C15E3A00AB6106 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				CE5295E218C15F4900AB6106 /* NSURLConnection */,
+				CE5295D218C15E3A00AB6106 /* NSURLSession */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		CE5295D218C15E3A00AB6106 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				CE5295D718C15E3A00AB6106 /* OTARESTSessionClientWithDelegate.h */,
+				CE5295D818C15E3A00AB6106 /* OTARESTSessionClientWithDelegate.m */,
+				CE5295D518C15E3A00AB6106 /* OTARESTSessionClient.h */,
+				CE5295D618C15E3A00AB6106 /* OTARESTSessionClient.m */,
+				CE5295D318C15E3A00AB6106 /* OTARESTSessionClient+Date.h */,
+				CE5295D418C15E3A00AB6106 /* OTARESTSessionClient+Date.m */,
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
+		CE5295E218C15F4900AB6106 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				CE5295E318C15F4900AB6106 /* OTARESTRequestOperationClient.h */,
+				CE5295E418C15F4900AB6106 /* OTARESTRequestOperationClient.m */,
+				CE5295E918C15F7500AB6106 /* OTARESTRequestOperationClient+Date.h */,
+				CE5295EA18C15F7500AB6106 /* OTARESTRequestOperationClient+Date.m */,
+			);
+			path = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		CE5295F218C1682200AB6106 /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+				CE5295F318C1682200AB6106 /* OTAJSONResponseSerializer.h */,
+				CE5295F418C1682200AB6106 /* OTAJSONResponseSerializer.m */,
+			);
+			path = Serializers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,9 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5295A218C11A8900AB6106 /* OTAViewController.m in Sources */,
+				CE5295D918C15E3A00AB6106 /* OTARESTSessionClient+Date.m in Sources */,
+				CE5295CF18C1244E00AB6106 /* OTATableViewController.m in Sources */,
 				CE52959818C11A8900AB6106 /* main.m in Sources */,
+				CE5295EB18C15F7500AB6106 /* OTARESTRequestOperationClient+Date.m in Sources */,
+				CE5295E518C15F4900AB6106 /* OTARESTRequestOperationClient.m in Sources */,
+				CE5295F518C1682200AB6106 /* OTAJSONResponseSerializer.m in Sources */,
+				CE5295DB18C15E3A00AB6106 /* OTARESTSessionClientWithDelegate.m in Sources */,
 				CE52959C18C11A8900AB6106 /* OTAAppDelegate.m in Sources */,
+				CE5295DA18C15E3A00AB6106 /* OTARESTSessionClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

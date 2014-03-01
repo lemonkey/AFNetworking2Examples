@@ -1,5 +1,5 @@
 //
-//  OTAViewController.h
+//  OTATableViewController.h
 //  AFNetworking2Examples
 //
 //  Created by Ari Braginsky on 2/28/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OTAViewController : UIViewController
+extern NSString * const kDateTestURL;
+
+@interface OTATableViewController : UITableViewController
 
 @end

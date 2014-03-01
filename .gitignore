@@ -29,5 +29,4 @@ git.output
 pkg
 build
 Podfile.lock
-
-
+contents.xcworkspacedata
